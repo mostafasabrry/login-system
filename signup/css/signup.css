@@ -1,0 +1,33 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    padding: 80px;
+}
+
+
+.group h1{
+    color: #17A2B8;
+    text-align: center;
+}
+
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input{
+    background-color: #24353f !important;
+    color: white !important;
+  
+}
+
+input::placeholder{
+    color: #B6B6B6 !important;
+}
+
+input:focus {
+    outline: none !important; 
+    border: 2px solid  rgba(38, 38, 189, 0.5) !important; 
+    box-shadow: none !important;
+}
